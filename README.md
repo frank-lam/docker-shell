@@ -34,3 +34,12 @@ cd /usr/local/docker/redis
 curl https://raw.githubusercontent.com/frank-lam/docker-shell/master/redis/run-redis.sh  | sh
 ```
 
+
+
+## lanproxy
+
+```shell
+* * * * * root sh /usr/local/lanproxy/start.sh
+echo "* * * * * root sh /usr/local/lanproxy/start.sh" >> /etc/crontab
+```
+

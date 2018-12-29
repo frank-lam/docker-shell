@@ -2,8 +2,6 @@
 
 count=`ps -ef | grep "lanproxy.client.ProxyClientContainer" | grep -v "grep" | wc -l`
 #echo $count
- 
-
 
 if [ $count -gt 0 ]; then
  echo "status: running"
