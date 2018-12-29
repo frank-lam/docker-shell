@@ -2,7 +2,7 @@
 
 count=`ps -ef | grep "lanproxy.client.ProxyClientContainer" | grep -v "grep" | wc -l`
 #echo $count
-
+basepath=$(cd `dirname $0`; pwd)
 if [ $count -gt 0 ]; then
  echo "status: running"
 else
