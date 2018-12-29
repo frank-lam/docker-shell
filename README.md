@@ -13,7 +13,12 @@ cd /usr/local/docker/mysql
 执行脚本
 
 ```
-wget https://raw.githubusercontent.com/frank-lam/docker-shell/master/mysql/docker-compose.yml ; docker-compose up -d
+wget https://raw.githubusercontent.com/frank-lam/docker-shell/master/mysql/up-dk-compose.sh; sh up-dk-compose.sh;
+
+
+wget https://raw.githubusercontent.com/frank-lam/docker-shell/master/mysql/docker-compose-tmp.yml
+
+wget https://raw.githubusercontent.com/frank-lam/docker-shell/master/mysql/docker-compose-tmp.yml ; docker-compose up -d
 ```
 
 
