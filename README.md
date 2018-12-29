@@ -31,19 +31,39 @@ wget https://raw.githubusercontent.com/frank-lam/docker-shell/master/mysql/docke
 
 切换到目录（在 `/usr/local/docker` 下创建自己的应用目录文件）
 
-```
+```shell
 cd /usr/local/docker/redis
 ```
 
 执行脚本
 
-```
+```shell
 curl https://raw.githubusercontent.com/frank-lam/docker-shell/master/redis/run-redis.sh  | sh
 ```
 
 
 
 ## lanproxy
+
+### 服务脚本拉取（start,status,stop,restart）
+
+```shell
+curl https://raw.githubusercontent.com/frank-lam/docker-shell/master/lanproxy/upshell.sh | sh
+```
+
+
+
+### 一件脚本安装
+
+
+
+
+
+### 开机启动
+
+
+
+### 定时任务
 
 ```shell
 * * * * * root sh /usr/local/lanproxy/start.sh
