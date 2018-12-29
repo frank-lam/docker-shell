@@ -6,19 +6,21 @@
 
 切换到目录（在 `/usr/local/docker` 下创建自己的应用目录文件）
 
-```
+```shell
 cd /usr/local/docker/mysql
 ```
 
-执行脚本
+1. 根据当前文件路径生成 docker-compose.yml 文件
 
-```
+```shell
 wget https://raw.githubusercontent.com/frank-lam/docker-shell/master/mysql/up-dk-compose.sh; sh up-dk-compose.sh;
+docker-compose up -d
+```
 
+2. 标准版 docker-compose.yml 文件
 
-wget https://raw.githubusercontent.com/frank-lam/docker-shell/master/mysql/docker-compose-tmp.yml
-
-wget https://raw.githubusercontent.com/frank-lam/docker-shell/master/mysql/docker-compose-tmp.yml ; docker-compose up -d
+```shell
+wget https://raw.githubusercontent.com/frank-lam/docker-shell/master/mysql/docker-compose.yml ; docker-compose up -d
 ```
 
 
