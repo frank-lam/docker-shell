@@ -157,8 +157,9 @@ docker run --name mysql -v /my/custom:/etc/mysql/conf.d -e MYSQL_ROOT_PASSWORD=m
 一键脚本获取
 
 ```
-
+curl https://raw.githubusercontent.com/frank-lam/docker-shell/master/mysql/up-dk-run.sh  | sh
 ```
+
 
 
 
