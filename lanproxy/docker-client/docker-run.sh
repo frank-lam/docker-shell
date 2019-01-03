@@ -1,1 +1,2 @@
-docker run -it --name lanproxy-client -e LANPROXY_KEY="51c1da65f7c547ae824b3604463b4b89" -e LANPROXY_HOST="120.92.10.120" -d --restart=always franklin5/lanproxy-client:1.0.0
+#!/bin/bash
+docker run -it --name lanproxy-client -e LANPROXY_KEY="input_your_key" -e LANPROXY_HOST="input_your_host" -d --restart=always franklin5/lanproxy-client:1.0.0
